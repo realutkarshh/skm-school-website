@@ -84,7 +84,7 @@ export default function HomePage() {
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Computer Lab</h3>
                 <p className="text-gray-600">
-                  State-of-the-art computer lab equipped with interactive smart boards and modern teaching aids.
+                  State-of-the-art computer lab equipped with modern teaching aids.
                 </p>
               </CardContent>
             </Card>
