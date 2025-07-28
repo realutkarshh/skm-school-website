@@ -2,11 +2,16 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { MapPin, Phone, Mail, Award, Users, BookOpen, Building } from "lucide-react"
+import { MapPin, Phone, Mail, Award, Users, BookOpen, Building, ListRestart } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
 import ImageSlider from "@/components/image-slider"
 import NewsSlider from "@/components/news-slider"
+import ComputerLab from "@/public/computerLab.jpg"
+import ScienceLab from "@/public/scienceLab.jpg"
+import AboutUsLanding from "@/public/aboutUsLanding.jpg"
+import Library from "@/public/Library.jpg"
+
 
 export default function HomePage() {
   return (
@@ -52,7 +57,7 @@ export default function HomePage() {
             </div>
             <div className="relative h-96">
               <Image
-                src="/placeholder.svg?height=400&width=600"
+                src={AboutUsLanding}
                 alt="SKM Public School Ultra-Modern Campus in Banka, Bihar"
                 fill
                 className="object-cover rounded-lg shadow-lg"
@@ -70,22 +75,22 @@ export default function HomePage() {
             <Card className="overflow-hidden">
               <div className="relative h-48">
                 <Image
-                  src="/placeholder.svg?height=200&width=400"
+                  src={ComputerLab}
                   alt="Smart Classrooms"
                   fill
                   className="object-cover"
                 />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Smart Classrooms</h3>
+                <h3 className="text-xl font-semibold mb-2">Computer Lab</h3>
                 <p className="text-gray-600">
-                  State-of-the-art classrooms equipped with interactive smart boards and modern teaching aids.
+                  State-of-the-art computer lab equipped with interactive smart boards and modern teaching aids.
                 </p>
               </CardContent>
             </Card>
             <Card className="overflow-hidden">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=200&width=400" alt="Science Labs" fill className="object-cover" />
+                <Image src={ScienceLab} alt="Science Labs" fill className="object-cover" />
               </div>
               <CardContent className="p-6">
                 <h3 className="text-xl font-semibold mb-2">Science Laboratories</h3>
@@ -96,10 +101,10 @@ export default function HomePage() {
             </Card>
             <Card className="overflow-hidden">
               <div className="relative h-48">
-                <Image src="/placeholder.svg?height=200&width=400" alt="Library" fill className="object-cover" />
+                <Image src={Library} alt="Library" fill className="object-cover" />
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-semibold mb-2">Digital Library</h3>
+                <h3 className="text-xl font-semibold mb-2">Library</h3>
                 <p className="text-gray-600">
                   Extensive collection of books, journals, and digital resources for comprehensive learning.
                 </p>

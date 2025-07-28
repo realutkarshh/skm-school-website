@@ -80,7 +80,7 @@ export default function DocsPage() {
       <div className="max-w-6xl mx-auto px-4">
         {/* Header */}
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">Document Center</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-4">Mandatory Disclosure</h1>
           <p className="text-xl text-gray-600">Access and download important school documents and certificates</p>
         </div>
 

@@ -9,6 +9,7 @@ import { Menu } from "lucide-react"
 import Logo from "@/public/logo.jpg"
 
 const navLinks = [
+  { href: "/", label: "Home"},
   { href: "/about-us", label: "About Us" },
   { href: "/docs", label: "Docs" },
   // { href: "/fees", label: "Fees Structure" },

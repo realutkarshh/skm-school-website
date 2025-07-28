@@ -23,8 +23,8 @@ export default function Footer() {
               <span className="text-lg font-bold">SKM Public School</span>
             </div>
             <p className="text-gray-300 mb-4">
-              "Humanity First" - A technology-driven institution in Banka, Bihar, nurturing young minds into confident,
-              compassionate, and capable future leaders since 1985.
+              "Humanity First" - A technology-driven School in Dadhi Pakaria, Shambhuganj, Banka district, Bihar, nurturing young minds into confident,
+              compassionate, and capable future leaders since 2010.
             </p>
             <div className="flex space-x-4">
               <Facebook className="h-5 w-5 text-blue-400 cursor-pointer hover:text-blue-300" />
@@ -90,15 +90,15 @@ export default function Footer() {
               </div>
               <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>Admission/General Inquiry : +91 6205781139</span>
+                  <span>Admission/General Inquiry : <br /> +91 6205781139</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>Principal Office : +91 9031626286</span>
+                  <span>Principal Office : <br /> +91 9031626286</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>Director Office : +91 9955932207</span>
+                  <span>Director Office : <br /> +91 9955932207</span>
                 </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-2" />
