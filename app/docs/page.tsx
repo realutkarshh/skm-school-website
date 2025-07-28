@@ -206,7 +206,7 @@ export default function DocsPage() {
                         <p className="text-gray-600 mb-4">{doc.description}</p>
                         <div className="flex justify-between text-sm text-gray-500 mb-6">
                           <span className="bg-green-100 text-green-800 px-2 py-1 rounded text-xs">Google Drive</span>
-                          <span>Updated: {doc.uploadDate}</span>
+                          {/* <span>Updated: {doc.uploadDate}</span> */}
                         </div>
                         
                         {/* Action Buttons */}

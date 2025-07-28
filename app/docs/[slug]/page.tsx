@@ -230,7 +230,7 @@ export default function DocumentPage() {
                 <p className="text-gray-600 mb-4 text-sm md:text-base">{document.description}</p>
                 <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4 text-xs md:text-sm text-gray-500">
                   <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded w-fit">{document.category}</span>
-                  <span>Updated: {document.uploadDate}</span>
+                  {/* <span>Updated: {document.uploadDate}</span> */}
                   <span className="bg-green-100 text-green-800 px-2 py-1 rounded w-fit">Google Drive</span>
                 </div>
               </div>
