@@ -17,7 +17,7 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-black/40 flex items-center justify-center">
           <div className="text-center text-white px-4">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">Welcome to SKM Public School</h1>
-            <p className="text-xl md:text-2xl mb-4">"Humanity First" - Excellence in Education Since 1985</p>
+            <p className="text-xl md:text-2xl mb-4">"Humanity First" - Excellence in Education Since 2010</p>
             <p className="text-lg mb-8">Banka, Bihar | Technology-Driven Learning</p>
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
               Explore Our Campus
