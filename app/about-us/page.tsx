@@ -106,7 +106,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* Leadership Team */}
-      <section className="py-16 px-4">
+      {/* <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Leadership Team</h2>
           <div className="grid md:grid-cols-3 gap-8">
@@ -165,10 +165,10 @@ export default function AboutUsPage() {
             </Card>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Statistics */}
-      <section className="py-16 px-4 bg-blue-600 text-white">
+      {/* <section className="py-16 px-4 bg-blue-600 text-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center mb-12">SKM by Numbers</h2>
           <div className="grid md:grid-cols-4 gap-8 text-center">
@@ -190,7 +190,7 @@ export default function AboutUsPage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Why Choose Us */}
       <section className="py-16 px-4">

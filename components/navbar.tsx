@@ -11,8 +11,8 @@ import Logo from "@/public/logo.jpg"
 const navLinks = [
   { href: "/about-us", label: "About Us" },
   { href: "/docs", label: "Docs" },
-  { href: "/fees", label: "Fees Structure" },
-  { href: "/academics", label: "Academics" },
+  // { href: "/fees", label: "Fees Structure" },
+  // { href: "/academics", label: "Academics" },
 ]
 
 export default function Navbar() {

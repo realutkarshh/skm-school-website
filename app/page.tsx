@@ -196,11 +196,19 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>+91 98765 43210</span>
+                  <span>Admission/General Inquiry : +91 62057 81139</span>
+                </div>
+                <div className="flex items-center">
+                  <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>Principal Office : +91 90316 26286</span>
+                </div>
+                <div className="flex items-center">
+                  <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>Director Office : +91 99559 32207</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>info@skmpublicschool.edu</span>
+                  <span>principal.skmps@gmail.com</span>
                 </div>
               </div>
 

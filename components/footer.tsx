@@ -43,7 +43,7 @@ export default function Footer() {
                   About Us
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/academics" className="text-gray-300 hover:text-white">
                   Academics
                 </Link>
@@ -52,7 +52,7 @@ export default function Footer() {
                 <Link href="/fees" className="text-gray-300 hover:text-white">
                   Fees Structure
                 </Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/docs" className="text-gray-300 hover:text-white">
                   Documents
@@ -62,7 +62,7 @@ export default function Footer() {
           </div>
 
           {/* Academics */}
-          <div>
+          {/* <div>
             <h3 className="text-lg font-semibold mb-4">Academics</h3>
             <ul className="space-y-2">
               <li>
@@ -78,7 +78,7 @@ export default function Footer() {
                 <span className="text-gray-300">Senior Secondary</span>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div>
@@ -89,12 +89,20 @@ export default function Footer() {
                 <span className="text-gray-300 text-sm">Dadhi Pakaria, Shambhuganj, Banka district, Bihar-813211</span>
               </div>
               <div className="flex items-center">
-                <Phone className="h-5 w-5 text-blue-400 mr-2" />
-                <span className="text-gray-300">+91 98765 43210</span>
-              </div>
+                  <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>Admission/General Inquiry : +91 62057 81139</span>
+                </div>
+                <div className="flex items-center">
+                  <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>Principal Office : +91 90316 26286</span>
+                </div>
+                <div className="flex items-center">
+                  <Phone className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>Director Office : +91 99559 32207</span>
+                </div>
               <div className="flex items-center">
                 <Mail className="h-5 w-5 text-blue-400 mr-2" />
-                <span className="text-gray-300">info@skmpublicschool.edu</span>
+                <span className="text-gray-300">principal.skmps@gmail.com</span>
               </div>
             </div>
           </div>

@@ -145,65 +145,7 @@ export default function DocsPage() {
             )
           })}
         </div>
-
-        {/* How to Upload Instructions */}
-        <div className="mt-16 bg-blue-50 rounded-lg p-8">
-          <h2 className="text-2xl font-bold text-gray-900 mb-4">How to Add New Documents</h2>
-          <div className="grid md:grid-cols-2 gap-8">
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Step-by-Step Guide:</h3>
-              <ol className="list-decimal list-inside space-y-2 text-gray-600">
-                <li>Upload your PDF file to Google Drive</li>
-                <li>Right-click on the file and select "Get link"</li>
-                <li>Change permissions to "Anyone with the link can view"</li>
-                <li>Copy the shareable link</li>
-                <li>Add the document details to the website code</li>
-                <li>The PDF will automatically be viewable and downloadable</li>
-              </ol>
-            </div>
-            <div>
-              <h3 className="text-lg font-semibold mb-3">Link Format Example:</h3>
-              <div className="bg-white p-4 rounded border text-sm">
-                <p className="text-gray-500 mb-2">Google Drive Link:</p>
-                <code className="text-blue-600 break-all">
-                  https://drive.google.com/file/d/FILE_ID/view?usp=sharing
-                </code>
-                <p className="text-gray-500 mt-4 mb-2">What happens automatically:</p>
-                <ul className="list-disc list-inside space-y-1 text-gray-600">
-                  <li>Preview: Embedded Google Drive viewer</li>
-                  <li>Download: Direct download link</li>
-                  <li>View: Opens in new tab</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Benefits */}
-        <div className="mt-8 grid md:grid-cols-3 gap-6">
-          <Card className="text-center p-6">
-            <div className="bg-green-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4">
-              <FileText className="h-6 w-6 text-green-600" />
-            </div>
-            <h3 className="font-semibold mb-2">No Database Required</h3>
-            <p className="text-sm text-gray-600">Simply update the code with Google Drive links</p>
-          </Card>
-          <Card className="text-center p-6">
-            <div className="bg-blue-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4">
-              <Eye className="h-6 w-6 text-blue-600" />
-            </div>
-            <h3 className="font-semibold mb-2">Built-in PDF Viewer</h3>
-            <p className="text-sm text-gray-600">Google Drive handles PDF viewing automatically</p>
-          </Card>
-          <Card className="text-center p-6">
-            <div className="bg-purple-100 rounded-full w-12 h-12 flex items-center justify-center mx-auto mb-4">
-              <Download className="h-6 w-6 text-purple-600" />
-            </div>
-            <h3 className="font-semibold mb-2">Easy Management</h3>
-            <p className="text-sm text-gray-600">Update files directly in Google Drive</p>
-          </Card>
-        </div>
       </div>
-    </div>
+    </div> // ✅ This closes the outermost <div>
   )
 }
