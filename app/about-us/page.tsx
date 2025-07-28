@@ -11,7 +11,7 @@ export default function AboutUsPage() {
         <div className="relative z-10 flex items-center justify-center h-full text-white text-center px-4">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">About SKM Public School</h1>
-            <p className="text-xl">Shaping Minds, Building Futures Since 1985</p>
+            <p className="text-xl">Shaping Minds, Building Futures Since 2010</p>
           </div>
         </div>
       </section>

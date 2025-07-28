@@ -110,15 +110,15 @@ export default function HomePage() {
       </section>
 
       {/* News and Events Section */}
-      <section className="py-16 px-4 bg-gray-50">
+      {/* <section className="py-16 px-4 bg-gray-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">News & Events</h2>
           <NewsSlider />
         </div>
-      </section>
+      </section> */}
 
       {/* Chairman Section */}
-      <section className="py-16 px-4">
+      {/* <section className="py-16 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="relative h-96">
@@ -143,10 +143,10 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Achievements Section */}
-      <section className="py-16 px-4 bg-blue-50">
+      {/* <section className="py-16 px-4 bg-blue-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-12">Our Achievements</h2>
           <div className="grid md:grid-cols-4 gap-8">
@@ -180,7 +180,7 @@ export default function HomePage() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Contact Section */}
       <section className="py-16 px-4">
@@ -196,15 +196,15 @@ export default function HomePage() {
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>Admission/General Inquiry : +91 62057 81139</span>
+                  <span>Admission/General Inquiry : +91 6205781139</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>Principal Office : +91 90316 26286</span>
+                  <span>Principal Office : +91 9031626286</span>
                 </div>
                 <div className="flex items-center">
                   <Phone className="h-5 w-5 text-blue-600 mr-3" />
-                  <span>Director Office : +91 99559 32207</span>
+                  <span>Director Office : +91 9955932207</span>
                 </div>
                 <div className="flex items-center">
                   <Mail className="h-5 w-5 text-blue-600 mr-3" />
