@@ -87,9 +87,9 @@ export default function DocumentPage() {
 
   if (!document) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center px-4">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-4">Document Not Found</h1>
+          <h1 className="text-xl md:text-2xl font-bold text-gray-900 mb-4">Document Not Found</h1>
           <p className="text-gray-600 mb-6">The requested document could not be found.</p>
           <Link href="/docs">
             <Button className="bg-blue-600 hover:bg-blue-700">
@@ -105,20 +105,23 @@ export default function DocumentPage() {
   const driveLinks = getGoogleDriveLinks(document.googleDriveLink)
 
   return (
-    <div className="min-h-screen py-8">
+    <div className="min-h-screen py-4 md:py-8">
       <div className="max-w-6xl mx-auto px-4">
-        {/* Header */}
-        <div className="flex items-center justify-between mb-8">
+        {/* Header - Mobile Responsive */}
+        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 mb-6 md:mb-8">
           <Link href="/docs">
-            <Button variant="outline">
+            <Button variant="outline" className="w-full sm:w-auto">
               <ArrowLeft className="h-4 w-4 mr-2" />
               Back to Documents
             </Button>
           </Link>
-          <div className="flex gap-2">
+          
+          {/* Action buttons - Stack on mobile */}
+          <div className="flex flex-col sm:flex-row gap-2 w-full sm:w-auto">
             <Button
               variant="outline"
-              size="icon"
+              size="sm"
+              className="w-full sm:w-auto"
               onClick={() => {
                 if (navigator.share) {
                   navigator.share({
@@ -132,56 +135,58 @@ export default function DocumentPage() {
                 }
               }}
             >
-              <Share2 className="h-4 w-4" />
+              <Share2 className="h-4 w-4 mr-2" />
+              <span className="sm:hidden">Share Document</span>
             </Button>
-            <a href={driveLinks.download} target="_blank" rel="noopener noreferrer">
-              <Button className="bg-blue-600 hover:bg-blue-700">
+            <a href={driveLinks.download} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <Button className="bg-blue-600 hover:bg-blue-700 w-full sm:w-auto" size="sm">
                 <Download className="h-4 w-4 mr-2" />
                 Download PDF
               </Button>
             </a>
-            <a href={driveLinks.view} target="_blank" rel="noopener noreferrer">
-              <Button variant="outline">
+            <a href={driveLinks.view} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+              <Button variant="outline" className="w-full sm:w-auto" size="sm">
                 <ExternalLink className="h-4 w-4 mr-2" />
-                Open in Drive
+                <span className="hidden sm:inline">Open in Drive</span>
+                <span className="sm:hidden">Drive</span>
               </Button>
             </a>
           </div>
         </div>
 
-        {/* Document Info */}
-        <Card className="mb-8">
+        {/* Document Info - Mobile Responsive */}
+        <Card className="mb-6 md:mb-8">
           <CardHeader>
-            <div className="flex items-start">
-              <div className="bg-blue-100 p-3 rounded-lg mr-4">
-                <FileText className="h-8 w-8 text-blue-600" />
+            <div className="flex flex-col sm:flex-row items-start">
+              <div className="bg-blue-100 p-3 rounded-lg mb-4 sm:mb-0 sm:mr-4">
+                <FileText className="h-6 w-6 md:h-8 md:w-8 text-blue-600" />
               </div>
               <div className="flex-1">
-                <CardTitle className="text-2xl mb-2">{document.title}</CardTitle>
-                <p className="text-gray-600 mb-4">{document.description}</p>
-                <div className="flex flex-wrap gap-4 text-sm text-gray-500">
-                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded">{document.category}</span>
+                <CardTitle className="text-xl md:text-2xl mb-2">{document.title}</CardTitle>
+                <p className="text-gray-600 mb-4 text-sm md:text-base">{document.description}</p>
+                <div className="flex flex-col sm:flex-row flex-wrap gap-2 sm:gap-4 text-xs md:text-sm text-gray-500">
+                  <span className="bg-blue-100 text-blue-800 px-2 py-1 rounded w-fit">{document.category}</span>
                   <span>Updated: {document.uploadDate}</span>
-                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded">Google Drive</span>
+                  <span className="bg-green-100 text-green-800 px-2 py-1 rounded w-fit">Google Drive</span>
                 </div>
               </div>
             </div>
           </CardHeader>
           <CardContent>
-            <p className="text-gray-700">{document.content}</p>
+            <p className="text-gray-700 text-sm md:text-base">{document.content}</p>
           </CardContent>
         </Card>
 
-        {/* Google Drive PDF Viewer */}
+        {/* Google Drive PDF Viewer - Mobile Responsive */}
         <Card>
           <CardHeader>
-            <CardTitle>Document Preview</CardTitle>
-            <p className="text-sm text-gray-600">
+            <CardTitle className="text-lg md:text-xl">Document Preview</CardTitle>
+            <p className="text-xs md:text-sm text-gray-600">
               Powered by Google Drive - If the preview doesn't load, click "Open in Drive" above
             </p>
           </CardHeader>
           <CardContent>
-            <div className="relative w-full" style={{ height: "600px" }}>
+            <div className="relative w-full" style={{ height: "400px" }}>
               <iframe
                 src={driveLinks.preview}
                 width="100%"
@@ -192,15 +197,17 @@ export default function DocumentPage() {
                 allow="autoplay"
               />
             </div>
-            <div className="mt-4 flex justify-center gap-4">
-              <a href={driveLinks.view} target="_blank" rel="noopener noreferrer">
-                <Button variant="outline">
+            
+            {/* Mobile: Stack buttons vertically, Desktop: Side by side */}
+            <div className="mt-4 flex flex-col sm:flex-row justify-center gap-2 sm:gap-4">
+              <a href={driveLinks.view} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <Button variant="outline" className="w-full sm:w-auto">
                   <ExternalLink className="h-4 w-4 mr-2" />
                   View Full Screen
                 </Button>
               </a>
-              <a href={driveLinks.download} target="_blank" rel="noopener noreferrer">
-                <Button className="bg-blue-600 hover:bg-blue-700">
+              <a href={driveLinks.download} target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto">
+                <Button className="bg-blue-600 hover:bg-blue-700 w-full sm:w-auto">
                   <Download className="h-4 w-4 mr-2" />
                   Download PDF
                 </Button>
@@ -209,24 +216,24 @@ export default function DocumentPage() {
           </CardContent>
         </Card>
 
-        {/* Related Documents */}
-        <div className="mt-12">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Related Documents</h2>
-          <div className="grid md:grid-cols-2 gap-4">
+        {/* Related Documents - Mobile Responsive */}
+        <div className="mt-8 md:mt-12">
+          <h2 className="text-xl md:text-2xl font-bold text-gray-900 mb-4 md:mb-6">Related Documents</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-3 md:gap-4">
             {Object.entries(documentData)
               .filter(([key]) => key !== slug)
               .slice(0, 4)
               .map(([key, doc]) => (
                 <Link key={key} href={`/docs/${key}`}>
                   <Card className="hover:shadow-md transition-shadow cursor-pointer">
-                    <CardContent className="p-4">
+                    <CardContent className="p-3 md:p-4">
                       <div className="flex items-center">
-                        <div className="bg-blue-100 p-2 rounded mr-3">
+                        <div className="bg-blue-100 p-2 rounded mr-3 flex-shrink-0">
                           <FileText className="h-4 w-4 text-blue-600" />
                         </div>
-                        <div className="flex-1">
-                          <h3 className="font-semibold text-sm">{doc.title}</h3>
-                          <p className="text-xs text-gray-500">{doc.category}</p>
+                        <div className="flex-1 min-w-0">
+                          <h3 className="font-semibold text-sm md:text-base truncate">{doc.title}</h3>
+                          <p className="text-xs md:text-sm text-gray-500">{doc.category}</p>
                         </div>
                       </div>
                     </CardContent>
