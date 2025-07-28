@@ -15,7 +15,7 @@ const documentData: Record<string, any> = {
     category: "DOCUMENTS AND INFORMATION",
     content:
       "This document contains all the official certificates and accreditations received by SKM Public School from various educational boards and government authorities.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1Fz96oDWHTOcJpvkCtXcQT1Z9SuLs1L21/view?usp=sharing",
   },
   "certificate2": {
     title: "TRUST CERTIFICATE",
@@ -24,106 +24,106 @@ const documentData: Record<string, any> = {
     category: "DOCUMENTS AND INFORMATION",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1Hm6xwQtAjPD4_aZK8BxamEDVClCl2ryO/view?usp=sharing",
   },
-  "certificate3": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
-    uploadDate: "2024-03-10",
-    category: "DOCUMENTS AND INFORMATION",
-    content:
-      "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
-  },
+  // "certificate3": {
+  //   title: "TRUST CERTIFICATE",
+  //   description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+  //   uploadDate: "2024-03-10",
+  //   category: "DOCUMENTS AND INFORMATION",
+  //   content:
+  //     "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
+  //   googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+  // },
   "certificate4": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+    title: "RECOGNITION CERTIFICATE",
+    description: "COPIES OF RECOGNITION CERTIFICATE UNDER RTE ACT, 2009, AND IT'S RENEWAL",
     uploadDate: "2024-03-10",
     category: "DOCUMENTS AND INFORMATION",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1fnvteiNePc__EolOlDklgcW5or3oiB8M/view?usp=sharing",
   },
   "certificate5": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+    title: "BUILDING SAFETY CERTIFICATE",
+    description: "COPY OF VALID BUILDING SAFETY CERTIFICATE AS PER THE NATIONAL BUILDING CODE",
     uploadDate: "2024-03-10",
     category: "DOCUMENTS AND INFORMATION",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1sD74IeQY-JlK3or3QrhscbNsK9qcFKVj/view?usp=sharing",
   },
-  "certificate6": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
-    uploadDate: "2024-03-10",
-    category: "DOCUMENTS AND INFORMATION",
-    content:
-      "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
-  },
-  "certificate7": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
-    uploadDate: "2024-03-10",
-    category: "DOCUMENTS AND INFORMATION",
-    content:
-      "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
-  },
+  // "certificate6": {
+  //   title: "TRUST CERTIFICATE",
+  //   description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+  //   uploadDate: "2024-03-10",
+  //   category: "DOCUMENTS AND INFORMATION",
+  //   content:
+  //     "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
+  //   googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+  // },
+  // "certificate7": {
+  //   title: "TRUST CERTIFICATE",
+  //   description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+  //   uploadDate: "2024-03-10",
+  //   category: "DOCUMENTS AND INFORMATION",
+  //   content:
+  //     "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
+  //   googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+  // },
   "certificate8": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+    title: "PROFORMA FOR SAFE DRINKING WATER AND SANITARY CONDITION CERTIFICATE",
+    description: "COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES OF SKM PUBLIC SCHOOL",
     uploadDate: "2024-03-10",
     category: "DOCUMENTS AND INFORMATION",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/18urY93yxlJ3ZYxw85vfQDP6h4s-dGHo1/view?usp=sharing",
   },
   "certificateC1": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+    title: "FEES STRUCTURE",
+    description: "FEE STRUCTURE OF THE SKM PUBLIC SCHOOL",
     uploadDate: "2024-03-10",
     category: "RESULT AND ACADEMICS",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1EQpFXvu6uQDTQMjUN52M_AvljuRnVyBH/view?usp=sharing",
   },
   "certificateC2": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+    title: "ACADEMIC CALENDAR",
+    description: "ANNUAL ACADEMIC CALENDER OF SKM PUBLIC SCHOOL",
     uploadDate: "2024-03-10",
     category: "RESULT AND ACADEMICS",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1jUeRaGPZcpP1dfW7DTjUtHmg5jBJM491/view?usp=sharing",
   },
   "certificateC3": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+    title: "LIST OF SCHOOL MANAGEMENT COMMITTEE",
+    description: "LIST OF SCHOOL MANAGEMENT COMMITTEE (SMC) OF SKM PUBLIC SCHOOL",
     uploadDate: "2024-03-10",
     category: "RESULT AND ACADEMICS",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1w2qrGoFElrZ5LEcUEbOLzmvB4HgT04aq/view?usp=sharing",
   },
   "certificateC4": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+    title: "PTA MEMBERS LIST",
+    description: "LIST OF PARENTS TEACHERS ASSOCIATION (PTA) MEMBERS OF SKM PUBLIC SCHOOL",
     uploadDate: "2024-03-10",
     category: "RESULT AND ACADEMICS",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1kgxdvm5Pdh3JLvJTAqdIir-RMVyj8EcS/view?usp=sharing",
   },
   "certificateC5": {
-    title: "TRUST CERTIFICATE",
-    description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
+    title: "BOARD EXAMINATION RESULT",
+    description: "LAST THREE-YEAR RESULT OF THE BOARD EXAMINATION OF SKM PUBLIC SCHOOL",
     uploadDate: "2024-03-10",
     category: "RESULT AND ACADEMICS",
     content:
       "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-    googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
+    googleDriveLink: "https://drive.google.com/file/d/1DbjcW8jpSPe6legaq-i7NcxiG-_mkvq3/view?usp=sharing",
   },
   
 }
