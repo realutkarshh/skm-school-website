@@ -62,15 +62,15 @@ const documentData: Record<string, any> = {
   //     "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
   //   googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
   // },
-  // "certificate7": {
-  //   title: "TRUST CERTIFICATE",
-  //   description: "COPIES OF SOCIETIES/TRUST/COMPANY REGISTRATION/RENEWAL CERTIFICATE, AS APPLICABLE",
-  //   uploadDate: "2024-03-10",
-  //   category: "DOCUMENTS AND INFORMATION",
-  //   content:
-  //     "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
-  //   googleDriveLink: "https://drive.google.com/file/d/1BxiMVs0XRA5nFMdKvBdBZjgmUUqptlbs74OgvE2upms/view?usp=sharing",
-  // },
+  "certificate7": {
+    title: "SELF CERTIFICATION",
+    description: "COPY OF THE SELF CERTIFICATION SUBMITTED BY THE SCHOOL FOR AFFILIATION/UPGRADATION/EXTENSION OF AFFILIATION",
+    uploadDate: "2024-03-10",
+    category: "DOCUMENTS AND INFORMATION",
+    content:
+      "The school prospectus provides comprehensive information about our admission process, curriculum, facilities, and fee structure for the academic year 2024-25.",
+    googleDriveLink: "https://drive.google.com/file/d/1sQl7Nq4VQr__MhbG8swkXLF1pa5Koi8g/view?usp=sharing",
+  },
   "certificate8": {
     title: "PROFORMA FOR SAFE DRINKING WATER AND SANITARY CONDITION CERTIFICATE",
     description: "COPIES OF VALID WATER, HEALTH AND SANITATION CERTIFICATES OF SKM PUBLIC SCHOOL",
