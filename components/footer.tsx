@@ -12,7 +12,7 @@ export default function Footer() {
           {/* School Info */}
           <div className="col-span-2 md:col-span-1">
             <div className="flex items-center space-x-2 mb-4">
-              <div className="relative h-8 w-8">
+              <div className="relative h-10 w-10">
                 <Image
                   src={Logo}
                   alt="SKM Public School Logo"
