@@ -215,6 +215,10 @@ export default function HomePage() {
                   <Mail className="h-5 w-5 text-blue-600 mr-3" />
                   <span>principal.skmps@gmail.com</span>
                 </div>
+                <div className="flex items-center">
+                  <Mail className="h-5 w-5 text-blue-600 mr-3" />
+                  <span>skmpakaria@gmail.com</span>
+                </div>
               </div>
 
               <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center">

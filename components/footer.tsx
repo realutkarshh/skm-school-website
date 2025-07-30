@@ -104,6 +104,10 @@ export default function Footer() {
                 <Mail className="h-5 w-5 text-blue-400 mr-2" />
                 <span className="text-gray-300">principal.skmps@gmail.com</span>
               </div>
+              <div className="flex items-center">
+                <Mail className="h-5 w-5 text-blue-400 mr-2" />
+                <span className="text-gray-300">skmpakaria@gmail.com</span>
+              </div>
             </div>
           </div>
         </div>
