@@ -11,16 +11,17 @@ export default function Footer() {
         <div className="grid md:grid-cols-4 gap-8">
           {/* School Info */}
           <div className="col-span-2 md:col-span-1">
-            <div className="flex items-center space-x-2 mb-4">
-              <div className="relative h-10 w-10">
+            <div className="flex items-center gap-2 space-x-2 mb-4">
+              <div className="relative ">
                 <Image
                   src={Logo}
                   alt="SKM Public School Logo"
-                  fill
+                  height={150}
+                  width={150}
                   className="object-contain"
                 />
               </div>
-              <span className="text-lg font-bold">SKM Public School</span>
+              <span className="text-lg font-bold">SKM <br /> Public School</span>
             </div>
             <p className="text-gray-300 mb-4">
               "Humanity First" - A technology-driven School in Dadhi Pakaria, Shambhuganj, Banka district, Bihar, nurturing young minds into confident,
